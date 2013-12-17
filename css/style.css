@@ -56,8 +56,8 @@ footer {
 .headline > .container > h1 {font-size: 140px;}
 .headline > .container > h2 {font-size: 63px;}
 .featurette-divider {margin: 50px 0;}
-.featurette-image.pull-left {margin-right: 20px;}
-.featurette-image.pull-right {margin-left: 20px;}
+.featurette-image.pull-left {margin-right: 20px; max-width: 50%}
+.featurette-image.pull-right {margin-left: 20px; max-width: 50%}
 .featurette-heading {font-size: 35px;}
 
 }
