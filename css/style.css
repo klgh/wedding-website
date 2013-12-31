@@ -51,6 +51,12 @@ footer {
 
 /* RESPONSIVE CSS */
 
+.img-responsive {
+  display: block;
+  height: auto;
+  max-width: 50%;
+}
+
 @media (max-width: 1200px) {
 
 .headline > .container > h1 {font-size: 140px;}
