@@ -1,7 +1,9 @@
 body {
 	margin-top: 50px; /* 50px is the height of the navbar - change this if the navbarn height changes */
+	font-family: 'Capriola', sans-serif;
 }
 
+/*HEADER*/
 .header-image {
 	background: url(../img/orangebike.png) no-repeat center center fixed;/* Use a tiling background image or a full width image - if you're using full width you will need to change no-repeat center center cover  */
 	background-position: top;
@@ -9,6 +11,7 @@ body {
 	display: block;
 	width: 100%;
 	text-align: center;
+
 }
 
 .headline {
@@ -19,14 +22,88 @@ body {
 	font-size: 130px;
 	background: #ffffff;
 	background: rgba(255, 255, 255, 0.9);
+	font-family: 'Capriola', sans-serif;
 }
 
 .headline > .container > h2 {
 	font-size: 77px;
 	background: #ffffff;
 	background: rgba(255, 255, 255, 0.9);
+	font-family: 'Capriola', sans-serif;
 }
 
+.navbar {
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    text-transform: uppercase;
+    background-color: #FEFCFF;
+}
+
+.navbar-brand {
+    font-weight: 700;
+}
+
+.navbar-brand:focus {
+    outline: 0;
+}
+
+.navbar-custom a {
+    color: #F38530;
+}
+
+.navbar-custom .nav li a {
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li.active {
+    outline: 0;
+    background-color: rgba(255,255,255,.2);
+}
+
+.navbar-toggle {
+    padding: 4px 6px;
+    font-size: 16px;
+    color: #F38530;
+}
+
+.navbar-toggle:focus,
+.navbar-toggle:active {
+    outline: 0;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        border-bottom: 0;
+        letter-spacing: 1px;
+        background: 0 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+        background-color: #FEFCFF;
+    }
+
+    .navbar-custom.top-nav-collapse {
+        border-bottom: 1px solid rgba(255,255,255,.3);
+    }
+}
+
+
+.navbar .navbar-toggle .icon-bar {
+    background-color: #F38530;
+}
+
+
+/*Main Body*/
 .featurette-divider {
 	margin: 80px 0;
 }
@@ -43,8 +120,15 @@ body {
 
 .featurette-heading {
 	font-size: 50px;
+	font-family: 'Capriola', sans-serif;
 }
 
+.text-muted {
+	font-family: 'Capriola', sans-serif;
+}
+
+
+/*Footer*/
 footer {
 	margin: 50px 0;
 }
@@ -54,7 +138,7 @@ footer {
 .img-responsive {
   display: block;
   height: auto;
-  max-width: 50%;
+  max-width: 30%;
 }
 
 @media (max-width: 1200px) {
@@ -62,8 +146,8 @@ footer {
 .headline > .container > h1 {font-size: 140px;}
 .headline > .container > h2 {font-size: 63px;}
 .featurette-divider {margin: 50px 0;}
-.featurette-image.pull-left {margin-right: 20px; max-width: 50%}
-.featurette-image.pull-right {margin-left: 20px; max-width: 50%}
+.featurette-image.pull-left {margin-right: 20px; max-width: 30%}
+.featurette-image.pull-right {margin-left: 20px; max-width: 30%}
 .featurette-heading {font-size: 35px;}
 
 }
@@ -113,3 +197,7 @@ footer {
 .featurette-image.pull-right {margin-left: 0; margin-bottom: 10px;}
 
 }
+
+
+
+
